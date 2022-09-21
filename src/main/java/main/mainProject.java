@@ -19,5 +19,7 @@ public class mainProject {
         System.out.println(arrayService.average(a));
         System.out.println(arrayService.countPositive(a));
         System.out.println(arrayService.countNegative(a));
+        int[] resultSort = arrayService.recursiveQuickSort(a);
+        System.out.println(Arrays.toString(resultSort));
     }
 }

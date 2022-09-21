@@ -68,4 +68,47 @@ public class ArrayService {
         }
         return count;
     }
+    public int[] recursiveQuickSort(ArrayConsole arr) {
+        int[] a = arr.getArr();
+        if (a.length != 0) {
+            int leftIndex = 0;
+            int rightIndex = a.length - 1;
+            sortArray(a, leftIndex, rightIndex);
+        }
+        return a;
+    }
+    private int[] sortArray(int[] array, int leftIndex, int rightIndex) {
+        int i = leftIndex;
+        int j = rightIndex;
+        int pivot = array[leftIndex];
+        while (i <= j) {
+            while (array[i] < pivot) {
+                i++;
+            }
+
+            while (array[j] > pivot) {
+                j--;
+            }
+
+            if (i <= j) {
+                int temp = array[i];
+                array[i] = array[j];
+                array[j] = temp;
+                i++;
+                j--;
+            }
+        }
+
+        if (leftIndex < j)
+        {
+            sortArray(array, leftIndex, j);
+        }
+
+        if (i < rightIndex)
+        {
+            sortArray(array, i, rightIndex);
+        }
+
+        return array;
+    }
 }

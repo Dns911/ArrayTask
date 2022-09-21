@@ -99,13 +99,11 @@ public class ArrayService {
             }
         }
 
-        if (leftIndex < j)
-        {
+        if (leftIndex < j) {
             sortArray(array, leftIndex, j);
         }
 
-        if (i < rightIndex)
-        {
+        if (i < rightIndex) {
             sortArray(array, i, rightIndex);
         }
 

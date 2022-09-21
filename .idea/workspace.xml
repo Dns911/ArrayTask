@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c56b1031-8914-4a31-ba73-e1c4e2db21dc" name="Changes" comment="Dns2">
+    <list default="true" id="c56b1031-8914-4a31-ba73-e1c4e2db21dc" name="Changes" comment="Dns3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/mainProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/mainProject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/ArrayService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/ArrayService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663713158235</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Dns3">
+      <created>1663773055585</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663773055586</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -95,6 +100,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Dns1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dns1" />
+    <MESSAGE value="Dns3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dns3" />
   </component>
 </project>
